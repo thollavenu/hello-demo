@@ -1,0 +1,8 @@
+name: hello world
+on: worflow_dispath
+Jobs:
+ hello world:
+  runs-on: ubuntu-latest
+  steps:
+   - name: hello step
+     run: echo "welcome to GHA"
