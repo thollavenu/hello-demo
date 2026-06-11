@@ -1,5 +1,5 @@
 name: hello world
-on: worflow_dispath
+on: workflow_dispatch
 jobs:
  hello:
   runs-on: ubuntu-latest
