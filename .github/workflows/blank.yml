@@ -14,3 +14,10 @@ jobs:
     - name: deploy step
       run: echo " Deploy the code"
 
+  Test:
+   runs-on: ubuntu-latest
+   steps:
+    - name: test phase
+      run: eho " testing the code"
+   
+
