@@ -17,7 +17,7 @@ jobs:
   Test:
    runs-on: ubuntu-latest
    steps:
-    - name: test phase
-      run: eho " testing the code"
+     - name: test phase
+       run: eho " testing the code"
    
 
