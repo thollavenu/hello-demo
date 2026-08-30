@@ -7,3 +7,10 @@ jobs:
      - name: build step
        run: echo " A run buid step"
 
+
+ Deploy:
+  runs-on: ubuntu-latest
+  steps:
+    - name: deploy step
+      run: echo " Deploy the code"
+
