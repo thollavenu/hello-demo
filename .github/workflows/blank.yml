@@ -1,11 +1,9 @@
-name: hello world
+name: Hello world
 on: workflow_dispatch
 jobs:
- hello:
+ Buid:
   runs-on: ubuntu-latest
   steps:
-   - name: hello step
-     run: |
-      echo "This is line one"
-      echo "This is line two"
-       echo "This is line three"
+    - name= build step
+      run= echo " A run buid step"
+
