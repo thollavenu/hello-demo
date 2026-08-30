@@ -4,6 +4,6 @@ jobs:
  Buid:
   runs-on: ubuntu-latest
   steps:
-     - name= build step
-       run= echo " A run buid step"
+     - name: build step
+       run: echo " A run buid step"
 
